@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    text-align: justify;
+}
+
+p {
+    font-weight: 200;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+hr {
+    border-color: black;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+body {}
+
+nav,
+#content {
+    margin: 0px 40px;
+}
+
+header {
+    margin: 40px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: red;
+}
+
+nav {
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+nav a {
+    margin: 0px 20px 0px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a::after {
+    content: "▾";
+}
+
+a:hover,
+#esq a:hover,
+#meio a:hover {
+    color: red;
+    transition: 0.2s;
+}
+
+.alinhamento {
+    display: inline-block;
+}
+
+#esq {
+    float: left;
+    width: 50%;
+    padding: 0px 15px 0px 0px;
+}
+
+#meio {
+    width: 19%;
+    padding: 0px 15px;
+}
+
+#dir {
+    float: right;
+    width: 25%;
+    padding: 0px 15px;
+}
+
+#nprincipal {
+    background-image: url(media/notfound.png);
+    background-position: center;
+    min-width: 550px;
+    max-width: fit-content;
+    height: 345px;
+    margin: 0px 0px 40px 0px;
+}
+
+#nprincipal a:hover {
+    color: white;
+}
+
+#nprincipal-text {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.479);
+    position: relative;
+    top: 67.5%;
+    padding: 15px;
+}
+
+#nmundo h3 {
+    font-size: 1.3em;
+}
+
+.infoa {
+    display: inline-block;
+    margin: 5px 15px 15px 0px;
+    color: darkgray;
+    font-size: 0.7em;
+    font-variant: small-caps;
+}
+
+.nmundo-colunas {
+    width: 47%;
+    display: inline-table;
+}
+
+#nmundo-principal {
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+#nmundo-outros hr {
+    margin: 0px 0px 10px 0px;
+}
+
+.lersobre {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 0.88em;
+    float: right;
+    margin: 5px 0px;
+}
+
+#meio img {
+    width: 100%;
+    margin: auto;
+}
+
+img:hover {
+    transform: scale(1.025);
+    transition: 0.5s;
+}
+
+#meio .lersobre {
+    text-decoration: none;
+    float: left;
+    color: black;
+    display: block;
+    font-weight: 400;
+    font-size: 0.88em;
+    margin: 0px 0px 20px 0px;
+}
+
+#meio .infoa {
+    margin: 5px 60px 5px 0px;
+}
+
+.celebridades-img {
+    float: left;
+    width: 40%;
+    margin: 0px 5px 0px 0px;
+}
+
+.celebridades-content {
+    width: 55%;
+}
+
+.celebridades-colunas {
+    display: inline-table;
+}
+
+#celebridades .infoa {
+    margin: 0px 15px 0px 0px;
+}
+
+#celebridades hr {
+    margin: 10px 0px;
+}
+
+.recentes-img {
+    float: left;
+    width: 40%;
+    margin: 0px 5px 0px 0px;
+}
+
+.recentes-content {
+    width: 55%;
+}
+
+.recentes-colunas {
+    display: inline-table;
+}
+
+#recentes .infoa {
+    margin: 0px 15px 0px 0px;
+}
+
+#recentes hr {
+    margin: 10px 0px;
+}
+
+footer {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    margin: 0px;
+    color: white;
+}
+
+.footers-coluns {
+    width: 20%;
+    display: inline-table;
+    padding: 20px;
+}
+
+.footers-coluns h5 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0px 0px 30px 0px;
+}
+
+#footer-about h5 {
+    margin: 0px 0px 10px 0px;
+}
+
+#footer-about p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+#footer-about-socials {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+#footer-about-socials a {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+#footer-about-socials a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.nfooters-img {
+    float: left;
+    width: 40%;
+    margin: 0px 5px 0px 0px;
+}
+
+.nfooters-content {
+    width: 55%;
+}
+
+.nfooters-colunas {
+    display: inline-table;
+}
+
+#nfooters .infoa {
+    margin: 0px 6px 0px 0px;
+}
+
+#nfooters a {
+    color: white;
+}
+
+#nfooters hr {
+    margin: 10px 0px;
+}
+
+#footer-galeria img {
+    width: 31%;
+    padding: 0px 2px;
+}
+
+#footer-copyright {
+    background-color: red;
+    width: 100%;
+    height: fit-content;
+    text-indent: 10px;
+}
+
+#footer-copyright>p>a {
+    color: white;
+}
+
+#footer-copyright p,
+#footer-copyright-buttons {
+    display: inline-block;
+}
+
+#footer-copyright-buttons {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 30px 10px 30px 10px;
+    position: relative;
+    left: 47%;
+}
+
+#footer-copyright-buttons a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+#footer-copyright a:hover {
+    color: black;
+    transition: 0.2s;
+}
