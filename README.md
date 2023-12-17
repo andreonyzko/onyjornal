@@ -1,2 +1,2 @@
 # onyjornal
-  Static jornal project using HTML5 & CSS3
+  Newletters static project using HTML5 & CSS3
