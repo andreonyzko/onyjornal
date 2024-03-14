@@ -234,4 +234,63 @@ footer .colums{
 
 footer article{
     display: flex;
+    justify-content: space-between;
+    align-items:start;
+}
+
+footer h3{
+    padding: 0px;
+    margin-bottom: 1em;
+}
+
+footer i{
+    margin-right: 0.5em;
+}
+
+footer .imgcolums{
+    width: 40%;
+}
+
+footer .textcolums{
+    width: 50%;
+}
+
+footer #columsgaleryfooter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer #columsgaleryfooter img{
+    width: 30%;
+    padding: 0.2em;
+}
+
+footer h4{
+    font-weight: normal;
+}
+
+#endfooter{
+    background-color: red;
+    color: white;
+    display: flex;
+    height: 8em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#endfooter div{
+    margin: 2em;
+}
+
+#endfooter a{
+    color: white;
+}
+
+#endfooter a:hover{
+    color: black;
+    transition: 0.2s;
+}
+
+.links{
+    padding: 0 1em;
 }
